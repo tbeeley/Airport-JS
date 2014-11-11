@@ -13,6 +13,21 @@ describe("Plane", function() {
     
   });
 
+  describe('taking off and landing', function(){
+
+    it("should not be flying when landed", function() {
+      plane.land()
+      expect(plane.flying).toBe(false)
+    });
+
+    it("should be flying having taken off", function() {
+      plane.land()
+      plane.takeOff()
+      expect(plane.flying).toBe(true)
+    });
+
+  });
+
 });
 
   

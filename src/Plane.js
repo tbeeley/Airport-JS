@@ -2,8 +2,10 @@ function Plane() {
 	this.flying = true;
 }
 
-// Thermostat.prototype.increaseTemperature = function() {
-// 	if(this.temperature < this.maximumTemperature()) {
-// 		this.temperature += 1;
-// 	}
-// };
+Plane.prototype.land = function() {
+	this.flying = false;
+};
+
+Plane.prototype.takeOff = function() {
+	this.flying = true;
+};
