@@ -1,4 +1,4 @@
 Airport---JS
 ===============
 
-Airport technical in Javascript. 
+Airport technical in JavaScript. 
